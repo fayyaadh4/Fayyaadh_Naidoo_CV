@@ -1,0 +1,95 @@
+/*the background color of the entire page was changed to aliceblue*/
+body {
+    margin: 2%;
+    background-color: aliceblue;
+}
+
+/*The headings were made in italics and the font changd to Times New Roman*/
+h1,
+h2,
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+
+}
+
+header {
+    background-color: thistle;
+}
+
+/*Text color, image-size, border and padding styles were incorporated into the elements to give the page a more attractive view*/
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+h2,
+h3 {
+    color: navy;
+}
+
+nav {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+div.introduction {
+    border: 2px inset lightgrey;
+    padding: 1px;
+}
+
+p.introduction {
+    text-align: center;
+    color: lightslategray;
+}
+
+table {
+    border-collapse: separate;
+}
+
+th,
+td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.eduTable {
+    margin-right: auto;
+    width: 500px;
+}
+
+tr {
+    padding: 20%;
+}
+
+table.workTable {
+    margin-left: auto;
+
+    width: 700px;
+}
+
+#workHistory {
+    text-align: right;
+}
+
+table.skillsTable {
+    width: 1000px;
+}
+
+#interests {
+    text-align: center;
+}
+
+p.intandhob {
+    text-align: center;
+}
